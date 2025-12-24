@@ -39,10 +39,10 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Recipe::insert([
-            ['name' => 'Р1'],
-            ['name' => 'Р2'],
-            ['name' => 'Р3'],
-            ['name' => 'Р4'],
+            ['name' => 'Рецепт №1'],
+            ['name' => 'Рецепт №2'],
+            ['name' => 'Рецепт №3'],
+            ['name' => 'Рецепт №4'],
         ]);
 
         RecipeResource::insert([
